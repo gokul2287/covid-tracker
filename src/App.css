@@ -11,6 +11,7 @@ body {
   justify-content: space-evenly;
   background-color: #f5f6fa;
   padding: 20px;
+  flex-direction: column;
 }
 
 .app__dropdown {
@@ -38,6 +39,9 @@ body {
   flex: 0.9;
 }
 
+.app__right {
+  margin-top: 16px;
+}
 .app__information > h3 {
   color: #6a5d5d;
   font-weight: 400;

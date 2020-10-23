@@ -14,6 +14,7 @@ import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
 import Map from "./Map";
 import "leaflet/dist/leaflet.css";
+import Footer from './Footer';
 
 
 const App = () => {
@@ -132,6 +133,7 @@ const App = () => {
           </div>
         </CardContent>
       </Card>
+      <Footer></Footer>
     </div>
   );
 };
